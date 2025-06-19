@@ -2,31 +2,32 @@
   <img align="left" alt="ConnectedBradford" width="55px" src="https://github.com/ShoreRob1/Images/blob/main/CB%20logo%201.png?raw=true" />
 </a>
 
-This is the Connected Bradford Lab Results GitHub page where you can find a summary of the dataset(s), data dictionaries and helpful code.
+#CB_FDM_LabResults
 
-# Flexible Data Model (FDM) 
+This dataset contains scripts and documentation for Lab Results data from Bradford Royal Infirmary, fully anonymised and linkable to other FDMs within the Connected Yorkshire project. It includes routinely collected clinical data for 8,691 patients, covering the period from 2017-03-02 to 2023-05-24.
 
-As a standard all our research datasets are stored in a Flexible Data Model (FDM) this is loosely based on the OHDSI standards and includes a person and onbservation period table that are in OHDSI standards .Click [here](https://www.ohdsi.org/data-standardization/) for details if the OHDSI CDM Model. 
+#Dataset Overview
 
+FDM Name: CB_FDM_LabResults
 
-# Connected Bradford Lab Results - CB_FDM_LabResults
+Latest Build: 2025-06-19
 
-Contains the scripts and documentation for Lab Results from  Bradford Royal Infiormary 
-It contains  8691 patients. The dataset has been fully anonymised, but can link to other FDM's.
+Linkable: Yes, to other FDMs
 
-Connected Bradford LabResults build date: 2024-04-23		, contains data up to : 2024-04-17
+Anonymisation: Fully anonymised; no identifiable information (e.g., names, date of birth, addresses)
 
-The observation period for this data is: 2017-03-02	to	2023-05-24
+#Flexible Data Model (FDM)
 
+All Connected Yorkshire research datasets follow a Flexible Data Model (FDM), loosely based on the OHDSI Common Data Model (CDM). This includes standard tables such as:
 
-# Tables
-The Lab Results data FDM is made up of 1 source table (summarised below and data dictionaries linked) from routinely collected data for 8691 individuals and their routinely collected clinical data. 
+person
 
-### The source data tables are: 
+observation_period
 
+###Source Tables
+
+The dataset includes one source table containing pseudonymised lab results data:
 tbl_LabResults
 
-
-For more information please go to the docs folder. 
-
-There is no identifiable information (such as names, date of birth, address,) available to the Connected Yorkshire project so patient confidentiality and privacy will be protected..
+#Documentation
+For detailed data dictionaries and schema definitions, refer to the docs folder.
