@@ -12,9 +12,9 @@ As a standard all our research datasets are stored in a Flexible Data Model (FDM
 # Connected Bradford Lab Results - CB_FDM_LabResults
 
 Contains the scripts and documentation for Lab Results from  Bradford Royal Infiormary 
-It contains  8691 patients. The dataset has been fully anonymised, but can link to other FDM's.
+It contains  8,691 patients. The dataset has been fully anonymised, but can link to other FDM's.
 
-Connected Bradford LabResults build date: 2024-04-23		, contains data up to : 2024-04-17
+Connected Bradford LabResults build date: 2025-06-19		
 
 The observation period for this data is: 2017-03-02	to	2023-05-24
 
